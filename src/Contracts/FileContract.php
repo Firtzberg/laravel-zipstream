@@ -7,8 +7,6 @@ use ZipStream\Option\File as FileOptions;
 
 interface FileContract
 {
-    public function getName(): string;
-
     public function getSource(): string;
 
     public function getZipPath(): string;
